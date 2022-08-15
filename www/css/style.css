@@ -1,0 +1,465 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-color: #EDEAD9;
+}
+
+/* Header */
+
+/* homepage navigation bar andlogo */
+
+.header {
+  overflow: hidden;
+  background-color: #E4ADED;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+}
+
+
+.header a {
+  font-family: tahoma, arial, helvetica, sans-serif;
+  color: black;
+  text-align: center;
+  padding: 18px 16px 0px 16px;
+  text-decoration: none;
+  font-size: 22px;
+  border-radius: 1em;
+
+
+}
+
+.header a:hover {
+  background-color: #fff;
+  color: rgb(196, 137, 196);
+  box-shadow: 0px 2px 5px #777;
+  height: 50px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.header a.active {
+  text-decoration: underline;
+  background-color: #fff;
+  color: rgb(196, 137, 196);
+  box-shadow: 0px 2px 5px #777;
+  height: 50px;
+}
+
+.topnav {
+  display: flex;
+  gap: 10px;
+  padding: 18px 16px;
+
+}
+
+/*  right nav buttons in header */
+.topnav-right {
+  display: flex;
+  gap: 10px;
+  padding: 18px 16px;
+}
+
+
+
+/* animation box buttons in the index page */
+.animationbox {
+  height: 450px;
+  width: 900px;
+  margin-top: 15vh;
+  margin-left: 10vh;
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  background-color: #4F2F48;
+}
+
+.startbutton {
+  height: 70px;
+  width: 300px;
+  margin-top: 25vh;
+  margin-left: 135vh;
+  position: absolute;
+}
+
+.registerhome {
+  height: 70px;
+  width: 300px;
+  margin-top: 35vh;
+  margin-left: 135vh;
+  position: absolute;
+}
+
+/* background box */
+.main {
+  height: 82.5vh;
+  background-color: #EDEAD9;
+  /* border: 2px solid #4F2F48; */
+}
+
+/* text types troughout website */
+.writing {
+  color: pink;
+  font-family: tahoma, arial, helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.text {
+  color: black;
+  font-size: 22px;
+  font-family: tahoma, arial, helvetica, sans-serif;
+  text-align: center;
+  padding-top: 10px;
+  text-decoration: none;
+}
+
+.text1 {
+  color: black;
+  font-size: 15px;
+  font-family: tahoma, arial, helvetica, sans-serif;
+  padding-top: 10px;
+  text-decoration: none;
+}
+
+
+/* leaderboard content gold silver bronze data box,table, 
+play again and refresh button */
+
+.playagain {
+  height: 70px;
+  width: 300px;
+  margin-top: 0vh;
+  margin-left: 65vh;
+  position: absolute;
+  background-color: rgb(209, 206, 206);
+  border: 2px solid black;
+}
+
+.refresh {
+  height: 70px;
+  width: 300px;
+  margin-top: 0vh;
+  margin-left: 100vh;
+  position: absolute;
+  background-color: rgb(209, 206, 206);
+  border: 2px solid black;
+}
+
+
+/* how to play page content */
+.textcontainer {
+  height: 500px;
+  width: 1000px;
+  margin-top: 15vh;
+  margin-left: 50vh;
+  position: absolute;
+  background-color: white;
+  border: 2px solid black;
+}
+
+/* login page content */
+.login {
+  height: 500px;
+  width: 1000px;
+  margin-top: 15vh;
+  margin-left: 50vh;
+  position: absolute;
+  background-color: rgb(207, 188, 188);
+  border: 2px solid black;
+}
+
+
+input[type=text],
+input[type=password] {
+  margin: 25px;
+  padding: 10px 10px;
+  width: 200px;
+  height: 34px;
+  color: #404040;
+  background: white;
+  border: 1px solid;
+}
+
+/* this button is used for both register
+   and login page to submit information inputted by users */
+.submit {
+  height: 35px;
+  width: 85px;
+  margin-top: 3vh;
+  margin-left: 50vh;
+  position: absolute;
+  background-color: rgb(209, 206, 206);
+  border: 2px solid rgb(143, 140, 140);
+}
+
+/* register page content box */
+
+.registerBox {
+  height: 500px;
+  width: 1000px;
+  margin-top: 15vh;
+  margin-left: 50vh;
+  position: absolute;
+  background-color: white;
+  border: 2px solid black;
+}
+
+/* register input field styling */
+
+.register-input [type=text],
+input[type=uname],
+input[type=email],
+input[type=password],
+input[type=country],
+input[type=nmbr] {
+  text-align: left;
+  margin-left: 30px;
+  padding: 10px 10px;
+  width: 200px;
+  height: 34px;
+  color: #404040;
+  background: white;
+  border: 1px solid;
+
+}
+
+/* Input filed name Styling */
+.registerPage {
+  color: black;
+  font-size: 22px;
+  font-family: tahoma, arial, helvetica, sans-serif;
+  text-align: left;
+  margin-left: 20px;
+  padding-top: 10px;
+  text-decoration: none;
+}
+
+
+/* bottom navigation bar */
+.botnav {
+  overflow: hidden;
+  background-color: #E4ADED;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+
+.botnav a {
+  font-family: tahoma, arial, helvetica, sans-serif;
+  color: black;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.botnav a:hover {
+  background-color: #fff;
+  color: rgb(196, 137, 196);
+  box-shadow: 0px 2px 5px #777;
+}
+
+
+.botnav a.active {
+  background-color: #876;
+  color: white;
+}
+
+
+/* trophy image used in a few pages */
+.trophy {
+
+  width: 200px;
+  height: 50px;
+}
+
+.gamebox-container {
+  min-height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid rgb(143, 140, 140);
+  border-right: 2px solid rgb(143, 140, 140);
+  color: black;
+  font-family: tahoma, arial, helvetica, sans-serif;
+  font-size: 60px;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #EDEAD9 !important;
+  width: 100%;
+  padding: 3rem 0;
+}
+
+.gamebox {
+  height: 400px;
+  padding: 1rem 3rem;
+  border: 1px solid black;
+  margin: 0 10px;
+  background-color: white;
+
+}
+
+.answer-section {
+  background: #EDEAD9 !important;
+  margin-right: 300px;
+  text-align: left;
+
+
+
+}
+
+.wrong {
+  border: 2px solid red !important;
+
+}
+
+
+.right {
+  border: 2px solid rgb(17, 158, 17) !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+
+
+/* Bootstrap button styles */
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.btn:focus,
+.btn:hover {
+  text-decoration: none
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: rgb(196, 137, 196);
+  border-color: #404040;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #E4ADED;
+  border-color: #000000
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.game-data div {
+  padding-bottom: 20px !important;
+}
+
+/* Canvas */
+
+#background-canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+
+#Scores {
+  font-family: tahoma, arial, helvetica, sans-serif;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Scores table {
+  width: 80%;
+}
+
+#Scores table tr th {
+  border-bottom: 2px solid rgb(97, 97, 97);
+  font-size: 18px;
+}
+
+#Scores table tr td {
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#Scores table tr:nth-child(2n) {
+  background-color: #e4aded !important;
+}
+
+.pa-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.custom-button {
+  font-size: 20px;
+  font-family: tahoma;
+  border: 2px solid #be3ad3;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: black;
+  background-color: #e4aded !important;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.custom-button:hover {
+  color: black;
+  background-color: #f6c3ff !important;
+}
+
+.endgamezero {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.level-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
